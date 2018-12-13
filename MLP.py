@@ -28,7 +28,7 @@ for n in range(iterate):
         #for each hidden unit hi find hin=w_i2h[i][j]*inp[k][j]
         for i in range(len(h)):
             hin=0
-            for j in range(len(k)):#try with len(i2h)
+            for j in range(len(k)):
                 #print("k{0}*w_i2h{0}{1}".format(j+1,i+1))
                 #print(hin)
                 hin+=k[j]*wt_i2h[j][i]
